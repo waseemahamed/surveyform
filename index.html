@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hostel Outing Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div id="outside">
+<form id="survey-form" action="thanks.html">
+<h1 id="title">Application for permission to go out of hostel</h1>
+<p id="description"><b>Note:</b> Form is to be completed at least 10 days prior to date</p>
+
+<Personal Details>
+<fieldset>
+  <legend>Personal Details</legend>
+  <div>
+    <label id="name-label" for="name">Name:</label>
+    <input type="text" required id="name" name="user_name" placeholder="Enter name here">   </div>
+    <div>
+      <label for="Admission No">Admission No:</label>
+      <input type="text" required id="Admission No" name="" placeholder="Enter the Admn No here">
+    </div>
+  <div>
+    <label id="email-label" for="Email">Email:</label>
+    <input type="email" required id="email" name="user_email" placeholder="Enter email here">   </div>
+  <div>
+    <label id="number-label" for="phone">Phone Number:</label>
+    <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number">  </div>
+  <div>
+    <label for="Reason">Reason for Outing:</label>
+    <input type="text" required id="Reason" name="Reason" placeholder="Enter the Reason:">
+  </div>
+
+  <div>
+    <label for="Gender">Gender</label>
+    <p>
+      <input type="radio" name="g" value="male" checked> Male<br>
+      <input type="radio" name="g" value="female"> Female<br>
+      <input type="radio" name="g" value="other"> Other
+    </p>
+  </div>
+  <label for="date-label">Date of Outing:</label>
+  <input type="date" name="bday">
+
+</fieldset>
+
+<fieldset>
+<legend>Parents Details:</legend>
+  <label for="Parents Details">Father's Name</label>
+  <input type="text" name="Father's Name" id="" placeholder="Enter Father's Name:"> <br> <br>
+
+  <label for="Parents Details">Father's Mobile No:</label>
+  <input type="text" name="Father's Mobile No" id="" placeholder="Enter Father's Mobile No:"> <br><br>
+
+  <label for="Parents Details">Mother's Name</label>
+  <input type="text" name="Mother's Name" id="" placeholder="Enter Mother's Name:"><br><br>
+
+  <label for="Parents Details">Mother's Mobile No:</label>
+  <input type="text" name="Mother's Name" id="" placeholder="Enter Mother's Mobile No:">
+</fieldset>
+
+<fieldset>
+  <div>
+
+    <label for="Department">Department Name:</label>
+    <select id="dropdown">
+<option value="Select">Select</option>
+<option value="ME">Mechanical Engineering</option>
+<option value="CSE">Computer and Science Engineering</option>
+<option value="ECE">Electrical and Communication Engineering</option>
+<option value="EEE">Electrical and Electronics Engineering</option>
+<option value="CE">Civil Engineering</option>
+</select>
+  </div>
+</fieldset>
+
+<div id="submitbutton">
+
+  <button type="submit" id="submit">Submit</button>   </div>
+
+</form>
+</div>
+</body>
+</html>
